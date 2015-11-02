@@ -1,0 +1,93 @@
+/*
+Theme Name: Sundhedskampagne
+Author: Hedensted Kommune
+Description: Specialtema for sundhedskampagne 2015
+Version: 0.1
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(img/bg2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+
+#tekst1 {
+	margin-bottom: 15px;
+	line-height: 25px;
+}
+
+#tekst2 {
+	margin-bottom: 15px;
+	line-height: 25px;
+}
+
+#kontakt {
+	background-color: #222222;
+	color: #FFFFFF;
+	-moz-box-shadow: 1px 7px 14px #292929;
+-webkit-box-shadow: 1px 7px 14px #292929;
+box-shadow: 1px 7px 14px #292929;
+	}
+
+#tilmeld {
+	background-color: #FFFFFF;
+	color: #000000;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:15px;
+	padding-left:15px;
+	padding-right: 15px;
+	padding-top:15px;
+	}
+
+#kvittering {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	}
+	
+button {
+	background-color: #8c2929;
+	}
+	
+#tilmeld label {
+	text-align: left;
+}
+
+#text2 {
+	margin-top:20px;
+	}
+	
+#footer {
+	background-color: #222222;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+		
+button:hover { 
+    background-color: #8a0e24 !important;
+}
+
+a {
+color:#8a0e24;
+}
+
+a:hover {
+color: #8c2929;
+}
+
+h4 {
+font-size: 24px;
+}
